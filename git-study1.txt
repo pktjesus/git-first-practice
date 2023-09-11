@@ -32,9 +32,14 @@ Git의 설정 명령 -> git config
   git status -> 깃 버전 관리 상태 확인
 
   git add 파일명1 -> 새로 생성된 파일명1을 commit할 수 있도록 Staged Area에 등록
+  git add 파일명1 파일명2 -> 새로 생성된 파일명1, 파일명2 파일을 commit할 수 있도록 Staged Area에 등록하는 명령어
+  git add . -> 현재 디렉토리(폴더)의 모든 새로 생성된 파일을 commit할 수 있도록 Staged Area에 등록하는 명령어
 
   git commit -m '메시지 내용' -> git 로컬에 반영(스냅샵, 해시 생성)
+  git commit --amend -m '메시지 내용2' -> 현재 HEAD에 있는 commit 메시지 변경
 
   git push -> 로컬 작업한 commit의 내용을 원격저장소(github)에 저장
 
   git restore --staged 파일명1 -> Staged Aread에 있는 파일명을 Untracked 상태로 변경
+
+  
