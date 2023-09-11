@@ -43,4 +43,6 @@ Git의 설정 명령 -> git config
 
   git restore --staged 파일명1 -> Staged Aread에 있는 파일명을 Untracked 상태로 변경
    
+  git reset: 커밋을 지우는 명령어(버전 관리 되돌리기 명령어)
+    
    
