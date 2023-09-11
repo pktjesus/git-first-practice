@@ -1,0 +1,22 @@
+1. Shell Prompt(Unix, Window, Mac)
+2. Git IDE(sourcetree, fork, gitkraken etc...)
+3. 수업일정
+9/11 - 9/12 -> 메인으로 git과 github사용법 익히기
+9/13 - 9/15 -> jsp/servlet
+9/18 - 10/18 -> springboot + thymeleaf + mustache
+                       (jquery + vue) + html/css/js
+                       java/DB
+10/19 - 11/16 -> 네트워크/보안 + 시스템
+11/17 - 12/26 -> 파이널프로젝트 + 교양과목(2일)
+
+Window키 + R -> 실행
+Window키 + E -> 파일탐색기
+
+TotoriseGit
+gitkraken 
+
+github md파일 문법 공부 -> https://heropy.blog/2017/09/30/markdown/
+
+git -> github
+github -> git
+
