@@ -1,0 +1,33 @@
+linux ls명령어: 파일리스트 보기(-al -> 숨김파일 및 폴더까지 show)
+linux cd명령어: 폴더 이동
+
+git flow
+github flow
+
+Git-Github 기본용어
+  branch: 깃의 작업영역(-a -> 깃 원격저장소(github) remote의 branch까지 보여줌
+  main: 깃의 기본 브랜치(예전에는 develop, master) -> local, remote
+  HEAD: 현재 작업 브랜치의 위치
+  remote/origin: 깃의 기본 원격 브랜치의 alias
+  clone: git remote의 처음 파일들을 local pc에 복제하는 명령어
+  pull: git의 remote위치에 있는 가장 최신의 commit 및 push한
+        내용들을 가져오는 명령어
+
+Git의 설정 명령 -> git config
+  git config [설정키] [설정값]
+    global
+  -> ex) git config --global user.name teacher
+           git config --global user.email teacher@naver.com
+
+     local
+  -> ex) git config user.name testconfig1
+           git config user.email testconfig1@abc.com
+
+  git config --list -> git의 환경변수(설정키) 설정값 보여주는 명령어
+
+  git log -> git 커밋한 내용들을 모두 볼 수 있는 명령어
+  git log -숫자 -> 숫자 개수만큼 로그 보기
+  git log --pretty=oneline
+
+  git status -> 깃 버전 관리 상태 확인
+
