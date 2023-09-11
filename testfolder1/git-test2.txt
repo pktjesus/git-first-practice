@@ -29,7 +29,7 @@ Git의 설정 명령 -> git config
   git log -숫자 -> 숫자 개수만큼 로그 보기
   git log --pretty=oneline
 
-  git status -> 깃 버전 관리 상태 확인 
+  git status -> 깃 버전 관리 상태 확인
 
   git add 파일명1 -> 새로 생성된 파일명1을 commit할 수 있도록 Staged Area에 등록
   git add 파일명1 파일명2 -> 새로 생성된 파일명1, 파일명2 파일을 commit할 수 있도록 Staged Area에 등록하는 명령어
