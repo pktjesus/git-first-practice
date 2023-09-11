@@ -44,5 +44,12 @@ Git의 설정 명령 -> git config
   git restore --staged 파일명1 -> Staged Aread에 있는 파일명을 Untracked 상태로 변경
    
   git reset: 커밋을 지우는 명령어(버전 관리 되돌리기 명령어)
-    
+     git reset HEAD^: 마지막 커밋을 스테이징 하기 전 상태로 되돌리는 명령어
+       -> 최근 1개의 커밋 삭제 + 변경된 파일 unstaging상태로 유지
+     git reset --hard HEAD^: 최근 1개의 커밋 삭제 + 변경된 파일 함께 되돌림
    
+     git reset HEAD^^: 마지막 2개의 커밋을 스테이징 하기 전 상태로 되돌리는 명령어(== git reset HEAD~2)
+       -> 최근 2개의 커밋 삭제 + 변경된 파일은 unstaging 상태로 유지
+     git reset --hard HEAD^^: 최근 n개의 커밋 삭제 + 변경된 파일도 함께 되돌림
+
+  git revert: 커밋을 하고 push를 한 상태에서 또 다른 커밋을 만들어 push을 할 때 사용
