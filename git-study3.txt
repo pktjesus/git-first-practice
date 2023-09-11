@@ -36,5 +36,3 @@ Git의 설정 명령 -> git config
   git commit -m '메시지 내용' -> git 로컬에 반영(스냅샵, 해시 생성)
 
   git push -> 로컬 작업한 commit의 내용을 원격저장소(github)에 저장
-
-  git restore --staged 파일명1 -> Staged Aread에 있는 파일명을 Untracked 상태로 변경
