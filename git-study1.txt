@@ -43,4 +43,4 @@ Git의 설정 명령 -> git config
 
   git restore --staged 파일명1 -> Staged Aread에 있는 파일명을 Untracked 상태로 변경
 
-  
+   
