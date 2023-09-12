@@ -53,3 +53,20 @@ Git의 설정 명령 -> git config
      git reset --hard HEAD^^: 최근 n개의 커밋 삭제 + 변경된 파일도 함께 되돌림
 
   git revert: 커밋을 하고 push를 한 상태에서 또 다른 커밋을 만들어 push을 할 때 사용
+
+  git branch: 현재 로컬에 있는 모든 브랜치를 보여주는 명령어
+  git branch 브랜치명: 로컬 브랜치를 만드는 명령어
+  git branch -r: 원격 브랜치 리스트 조회
+  git branch -a: 로컬 및 원격 브랜치 리스트를 전부 조회
+  원격 브랜치만 삭제 -> git push origin -d 브랜치명 
+
+  git checkout 만들어진브랜치명: 만들어진브랜치명으로 작업영역 변경
+  git checkout -b 만들브랜치명: 만들브랜치명이 만들어지고 바로 만들브랜치명으로 작업영역 변경
+  git checkout -b 만들브랜치명 remote브랜치명: 로컬 브랜치에 만들브랜치명으로 remote브랜치를 가져오는 명령어
+
+
+
+
+
+
+
