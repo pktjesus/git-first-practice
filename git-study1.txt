@@ -100,7 +100,9 @@ git 원격 저장소 관련 명령
   git pull: 원격저장소에 있는 내용들을 전부 로컬git에 저장(+ local에 있는 내용들이랑 merge)
   git fetch: 원격저장소에 있는 내용들을 전부 로컬git에 저장(merge는 하지 않음. 결국 따로 merge 명령어를 실행해야 함)
 
-
+github 활용하기
+  PR(pull request)실행
+  PR실행에서 merge
 
 
 
