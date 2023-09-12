@@ -104,5 +104,5 @@ github 활용하기
   PR(pull request)실행
   PR실행에서 merge
 
-
+dbeaver설치(통합 데이터베이스 관리툴)
 
